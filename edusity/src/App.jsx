@@ -8,6 +8,7 @@ import Campus from './components/Campus/Campus'
 import Testimonials from './components/Testimonials/Testimonials'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
+import VideoPlayer from './components/VideoPlayer/VideoPlayer'
 
 
 const App = () => {
@@ -26,7 +27,9 @@ const App = () => {
          <Title subTitle='Contact Us' title='Get in Touch'/>
          <Contact/>
          <Footer/>
+         
       </div>
+      <VideoPlayer/>
       
   </div>
   )
